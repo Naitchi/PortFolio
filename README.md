@@ -1,6 +1,6 @@
 # Mon PortFolio
 
-required: { node: '16.11.0' },
+required: { node: '21.5.0' },
 
 ## Documentation
 
