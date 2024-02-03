@@ -1,13 +1,18 @@
-import { join, resolve } from 'path';
+import { fileURLToPath } from 'url';
+import path, { dirname } from 'path';
 
-/** @type {import('next').NextConfig} */
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+const rootDir = path.resolve(__dirname);
+
 const nextConfig = {
   reactStrictMode: true,
   sassOptions: {
-    includePaths: [join(__dirname, 'styles')],
+    includePaths: [path.join(rootDir, 'styles')],
   },
   webpack: (config) => {
-    config.resolve.alias['@'] = resolve(__dirname);
+    config.resolve.alias['@'] = path.join(rootDir, 'src');
     return config;
   },
 };
