@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <title>Benjamin Clairotte</title>
+        <title>Benjamin Clairotte | Développeur d&apos;Application Web FullStack</title>
         <meta
           name="description"
           content="J'aime codé et voilà ce que j'ai codé; Bienvenue sur mon PortFolio"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/assets/favicon.ico" type="image/ico" />
       </Head>
       <div className={styles.main}>
         <Header />
