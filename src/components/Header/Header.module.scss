@@ -1,13 +1,55 @@
+@import '../../styles/variables';
+
 .main {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
-  padding: 10px 20px;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background-color: $secondary-color;
+
+  transition: padding 0.7s ease, box-shadow 0.7s ease;
+
+  .logo {
+    height: 64px;
+    transition: height 0.7s ease;
+  }
+
+  .contact {
+    color: $primary-color;
+    border: solid $primary-color 2px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    height: fit-content;
+
+    transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      background-color: $primary-color;
+      color: $secondary-color;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 7px rgba($primary-color, 0.3);
+    }
+  }
 }
 
-.sticky {
-  padding: 10px;
+.scrolled {
+  padding: 10px 70px;
+  box-shadow: black 0 5px 5px;
 
-  box-shadow: black 5px 0 5px;
+  transition: padding 0.7s ease, box-shadow 0.7s ease;
+  .logo {
+    height: 32px;
+    transition: height 0.7s ease;
+  }
+  .contact {
+    padding: 7px 10px;
+    transition: padding 0.7s ease;
+  }
 }

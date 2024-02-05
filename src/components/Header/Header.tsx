@@ -24,11 +24,17 @@ export default function Header() {
     };
   }, []);
   return (
-    <header className={`${styles.main} ${scrolled ? styles.sticky : ''}`}>
+    <header className={`${styles.main} ${scrolled ? styles.scrolled : ''}`}>
       <Link href={'/'}>
-        <img src="" alt="Logo de mon site Benjamin Clairotte Portfolio" />
+        <img
+          src="/assets/logo.png"
+          className={styles.logo}
+          alt="Logo de mon site Benjamin Clairotte Portfolio"
+        />
       </Link>
-      <a href="mailto:benjaminclairottepro@gmail.com">Me contacter</a>
+      <a className={styles.contact} href="mailto:benjaminclairottepro@gmail.com">
+        Me Contacter
+      </a>
     </header>
   );
 }
