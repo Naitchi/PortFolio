@@ -4,6 +4,7 @@ import React from 'react';
 
 // Components
 import Header from '@/components/Header/Header';
+import Opening from '@/components/Opening/Opening';
 
 // Styles
 import styles from '@/styles/index.module.scss';
@@ -14,7 +15,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
-        <title>Benjamin Clairotte | Développeur d&apos;Application Web FullStack</title>
+        <title>Benjamin Clairotte | Développeur d&apos;Applications Web FullStack</title>
         <meta
           name="description"
           content="J'aime codé et voilà ce que j'ai codé; Bienvenue sur mon PortFolio"
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <Header />
+        <Opening />
       </div>
     </React.Fragment>
   );
