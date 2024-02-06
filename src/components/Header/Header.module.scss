@@ -17,7 +17,6 @@
     height: 64px;
     transition: height 0.7s ease;
   }
-
   .contact {
     color: $primary-color;
     border: solid $primary-color 2px;
@@ -31,17 +30,15 @@
       background-color: $primary-color;
       color: $secondary-color;
     }
-
     &:focus {
       outline: none;
       box-shadow: 0 0 7px rgba($primary-color, 0.3);
     }
   }
 }
-
 .scrolled {
   padding: 10px 70px;
-  box-shadow: black 0 5px 5px;
+  box-shadow: #00000057 0 5px 5px;
 
   transition: padding 0.7s ease, box-shadow 0.7s ease;
   .logo {
