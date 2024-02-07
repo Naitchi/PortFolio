@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.portfolio {
+  background-color: $primary-color;
+
+  .topSide {
+    width: 100%;
+    background-color: $secondary-color;
+  }
+  .title {
+    position: relative;
+    font-size: 4rem;
+    top: 19px;
+    font-weight: 400;
+    text-align: center;
+    color: $primary-color;
+    letter-spacing: 5px;
+  }
+  .botSide {
+    display: flex;
+    padding: 5% 10%;
+  }
+}
