@@ -1,0 +1,55 @@
+@import '../../styles/variables';
+
+.siteCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 310px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 17px;
+  background-color: unset;
+  border: none;
+
+  .hover {
+    opacity: 1 !important;
+    transition: opacity 0.3s ease;
+  }
+  .content {
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    width: 310px;
+    height: 400px;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 17px;
+    transition: opacity 0.3s ease;
+
+    .btn {
+      color: $secondary-color;
+      border: solid $primary-color 2px;
+      border-radius: 15px;
+      padding: 10px 20px;
+      height: fit-content;
+
+      transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease,
+        box-shadow 0.3s ease;
+
+      &:hover {
+        background-color: $primary-color;
+        color: $secondary-color;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 7px rgba($primary-color, 0.3);
+      }
+    }
+  }
+}
