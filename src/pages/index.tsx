@@ -5,6 +5,7 @@ import React from 'react';
 // Components
 import Header from '@/components/Header/Header';
 import Opening from '@/components/Opening/Opening';
+import Portfolio from '@/components/Portfolio/Portfolio';
 
 // Styles
 import styles from '@/styles/index.module.scss';
@@ -26,6 +27,7 @@ export default function Home() {
       <div className={styles.main}>
         <Header />
         <Opening />
+        <Portfolio />
       </div>
     </React.Fragment>
   );
