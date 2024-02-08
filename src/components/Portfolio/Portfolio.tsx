@@ -20,6 +20,10 @@ export default function Portfolio() {
           desc="Mon ancien CV fait pour montré mes compétences. Le design laisse un peu à désirer sur certaines parties mais je suis fier de ce site."
         />
       </div>
+      <a className={styles.github} href="https://github.com/Naitchi?tab=repositories">
+        {/* TODO mettre un logo fontawesome */}
+        En voir plus sur mon Github
+      </a>
     </div>
   );
 }
