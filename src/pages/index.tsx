@@ -6,6 +6,7 @@ import React from 'react';
 import Header from '@/components/Header/Header';
 import Opening from '@/components/Opening/Opening';
 import Portfolio from '@/components/Portfolio/Portfolio';
+import Recommandations from '@/components/Recommandations/Recommandations';
 
 // Styles
 import styles from '@/styles/index.module.scss';
@@ -28,6 +29,7 @@ export default function Home() {
         <Header />
         <Opening />
         <Portfolio />
+        <Recommandations />
       </div>
     </React.Fragment>
   );
