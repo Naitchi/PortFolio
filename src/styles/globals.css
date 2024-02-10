@@ -2,6 +2,14 @@
   font-family: 'Roboto', monospace;
 }
 
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

@@ -17,17 +17,27 @@ export default function Recommandations() {
   };
   return (
     <div className={styles.bg}>
-      <h2 className={styles.title}>Recommandations</h2>
+      <h2 className={styles.title}>Recommandé par :</h2>
       <div className={styles.reco}>
         <Slider {...settings} className={styles.slider}>
           <div className={styles.slide}>
-            <h3 className={styles.name}>TEST</h3>
+            <img className={styles.img} src="/assets/ManuPP.webp" alt="Photo de Manuel" />
+            <h3 className={styles.name}>Manuel Trambert</h3>
+            <p className={styles.work}>Ancien Lead Développeur ches Mes-Allocs</p>
           </div>
           <div className={styles.slide}>
-            <h3 className={styles.name}>TESTTEST</h3>
+            <img
+              className={styles.img}
+              src="/assets/JoffreyPP.webp"
+              alt="Photo représentant Joffrey"
+            />
+            <h3 className={styles.name}>Joffrey</h3>
+            <p className={styles.work}>Développeur Web et Mentor chez OpenClassrooms</p>
           </div>
           <div className={styles.slide}>
-            <h3 className={styles.name}>TESTTESTTEST</h3>
+            <img className={styles.img} src="/assets/PwccaPP.PNG" alt="Photo de Pwcca" />
+            <h3 className={styles.name}>Dylan &quot;Pwcca&quot; Bouvier</h3>
+            <p className={styles.work}>Directeur de Production chez Solary</p>
           </div>
         </Slider>
       </div>
