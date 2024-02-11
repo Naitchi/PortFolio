@@ -31,7 +31,7 @@ export default function Recommandations() {
               src="/assets/JoffreyPP.webp"
               alt="Photo représentant Joffrey"
             />
-            <h3 className={styles.name}>Joffrey</h3>
+            <h3 className={styles.name}>Joffrey Hernandez</h3>
             <p className={styles.work}>Développeur Web et Mentor chez OpenClassrooms</p>
           </div>
           <div className={styles.slide}>
