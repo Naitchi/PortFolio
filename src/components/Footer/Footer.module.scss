@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 300px;
+  background-color: $primary-color;
+
+  .socialMedia {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    .btn {
+      color: $secondary-color;
+      border: solid $secondary-color 2px;
+      border-radius: 25px;
+      padding: 10px 20px;
+      height: fit-content;
+
+      transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease,
+        box-shadow 0.3s ease;
+
+      &:hover {
+        background-color: $secondary-color;
+        color: $primary-color;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 7px rgba($secondary-color, 0.3);
+      }
+    }
+  }
+}

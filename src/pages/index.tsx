@@ -7,6 +7,7 @@ import Header from '@/components/Header/Header';
 import Opening from '@/components/Opening/Opening';
 import Portfolio from '@/components/Portfolio/Portfolio';
 import Recommandations from '@/components/Recommandations/Recommandations';
+import Footer from '@/components/Footer/Footer';
 
 // Styles
 import styles from '@/styles/index.module.scss';
@@ -30,6 +31,7 @@ export default function Home() {
         <Opening />
         <Portfolio />
         <Recommandations />
+        <Footer />
       </div>
     </React.Fragment>
   );
