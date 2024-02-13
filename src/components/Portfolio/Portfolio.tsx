@@ -1,6 +1,11 @@
 // Import React/Redux
 import React from 'react';
 
+// Import Fontawesome
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 // Import Component
 import SiteCard from '../SiteCard/SiteCard';
 
@@ -21,8 +26,8 @@ export default function Portfolio() {
         />
       </div>
       <a className={styles.github} href="https://github.com/Naitchi?tab=repositories">
-        {/* TODO mettre un logo fontawesome */}
         En voir plus sur mon Github
+        <FontAwesomeIcon className={styles.icon} icon={faArrowRight} size="xl" />
       </a>
     </div>
   );

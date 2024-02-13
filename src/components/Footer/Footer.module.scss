@@ -12,8 +12,12 @@
   .socialMedia {
     display: flex;
     justify-content: space-around;
-    width: 400px;
+    width: 550px;
     .btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
       color: $secondary-color;
       border: solid $secondary-color 2px;
       border-radius: 25px;
@@ -23,6 +27,9 @@
       transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease,
         box-shadow 0.3s ease;
 
+      .icon {
+        margin-right: 7px;
+      }
       &:hover {
         background-color: $secondary-color;
         color: $primary-color;
