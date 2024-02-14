@@ -21,7 +21,7 @@ export default function Portfolio() {
       <div className={styles.botSide}>
         <SiteCard
           image="AncienCV.png"
-          url="https://benjaminclairotte.fr"
+          url="https://mon-cv-en-ligne.vercel.app/"
           desc="Mon ancien CV fait pour montré mes compétences. Le design laisse un peu à désirer sur certaines parties mais je suis fier de ce site."
         />
         <SiteCard
