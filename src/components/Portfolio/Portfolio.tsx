@@ -20,11 +20,22 @@ export default function Portfolio() {
       </div>
       <div className={styles.botSide}>
         <SiteCard
-          image="E1rVcDRVcAAeTVb.jpg"
+          image="AncienCV.png"
           url="https://benjaminclairotte.fr"
           desc="Mon ancien CV fait pour montré mes compétences. Le design laisse un peu à désirer sur certaines parties mais je suis fier de ce site."
         />
+        <SiteCard
+          image="quest-eft.png"
+          url="https://quest-eft.com"
+          desc="Site pour les joueurs d'Escape From Tarkov, vous permet de connaitre la location et les détails de vos quêtes sur la carte pour mieux vous y retrouvez."
+        />
+        <SiteCard
+          image="formademia.png"
+          url="https://www.formademia.fr"
+          desc="Site de formation, j'ai développer la homepage, la page des mentions-légals, la page &quot;Qui sommes-nous?&quot; mais aussi le BackOffice qui lui n'ai pas disponible au public."
+        />
       </div>
+      <p className={styles.thisOneToo}>Et ce site PortFolio évidemment.</p>
       <a className={styles.github} href="https://github.com/Naitchi?tab=repositories">
         En voir plus sur mon Github
         <FontAwesomeIcon className={styles.icon} icon={faArrowRight} size="xl" />
