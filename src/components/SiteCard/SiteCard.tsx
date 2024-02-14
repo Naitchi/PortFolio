@@ -22,7 +22,7 @@ const SiteCard: React.FC<SiteCardProps> = ({ image, url, desc }) => {
     >
       <div className={`${hover ? styles.hover : ''} ${styles.content}`}>
         <p className={styles.desc}>{desc}</p>
-        <Link className={styles.btn} href={url}>
+        <Link className={styles.btn} target="_blank" href={url}>
           Visiter le site
         </Link>
       </div>
