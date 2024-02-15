@@ -17,7 +17,7 @@ export default function Recommandations() {
   };
   return (
     <div className={styles.bg}>
-      <h2 className={styles.title}>Recommandé par :</h2>
+      <h2 className={styles.title}>Recommandé par&nbsp;:</h2>
       <div className={styles.reco}>
         <Slider {...settings} className={styles.slider}>
           <div className={styles.slide}>

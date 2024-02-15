@@ -13,6 +13,7 @@
     color: $primary-color;
     font-size: 2rem;
     margin-bottom: 75px;
+    text-align: center;
   }
 
   .reco {
@@ -41,6 +42,32 @@
           color: $secondary-color;
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .bg {
+    .reco {
+      padding: 30px 40px;
+
+      .slider {
+        .slide {
+          .img {
+            width: 150px;
+          }
+          .work {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bg {
+    .title {
+      font-size: 1.7rem;
     }
   }
 }

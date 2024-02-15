@@ -7,22 +7,44 @@
   align-items: center;
 
   background-color: $secondary-color;
-  height: 500px;
+  min-height: 500px;
   margin-top: 88px;
 
   .title {
     color: $primary-color;
     font-size: 2.7rem;
     letter-spacing: 5px;
+    text-align: center;
   }
   .desc {
     color: $primary-color;
     font-size: 1.5rem;
     margin-top: 2rem;
     letter-spacing: 1px;
+    text-align: center;
   }
   .img {
     height: 190px;
     margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .opening {
+    .title {
+      font-size: 2rem;
+    }
+    .desc {
+      font-size: 1.7rem;
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .opening {
+    .title {
+      font-size: 1.7rem;
+    }
+    .desc {
+      font-size: 1.5rem;
+    }
   }
 }

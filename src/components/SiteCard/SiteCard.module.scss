@@ -54,3 +54,14 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .siteCard {
+    width: 222px;
+    height: 160px;
+    .content {
+      width: 222px;
+      height: 160px;
+    }
+  }
+}

@@ -6,13 +6,14 @@
   justify-content: space-around;
   align-items: center;
 
-  height: 300px;
+  min-height: 300px;
   background-color: $primary-color;
 
   .socialMedia {
     display: flex;
-    justify-content: space-around;
-    width: 550px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
     .btn {
       display: flex;
       justify-content: space-between;
@@ -22,6 +23,7 @@
       border: solid $secondary-color 2px;
       border-radius: 25px;
       padding: 10px 20px;
+      margin: 7px;
       height: fit-content;
 
       transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease,

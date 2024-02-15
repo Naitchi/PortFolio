@@ -25,7 +25,9 @@
   .botSide {
     display: flex;
     flex-wrap: wrap;
-    padding: 5% 10%;
+    justify-content: center;
+
+    padding: 5% 2%;
   }
   .thisOneToo {
     margin: 15px;
@@ -36,6 +38,7 @@
     border-radius: 15px;
     padding: 10px 20px;
     height: fit-content;
+    font-size: 15px;
 
     transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 
@@ -49,6 +52,14 @@
     &:focus {
       outline: none;
       box-shadow: 0 0 7px rgba($secondary-color, 0.3);
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .portfolio {
+    .title {
+      font-size: 3rem;
+      top: 13px;
     }
   }
 }

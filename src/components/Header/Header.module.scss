@@ -9,7 +9,7 @@
   top: 0;
   z-index: 3;
   width: 100%;
-  padding: 10px 100px;
+  padding: 10px 5%;
   background-color: $secondary-color;
 
   transition: padding 0.7s ease, box-shadow 0.7s ease;
@@ -38,7 +38,7 @@
   }
 }
 .scrolled {
-  padding: 10px 70px;
+  padding: 10px 3%;
   box-shadow: #00000057 0 5px 5px;
 
   transition: padding 0.7s ease, box-shadow 0.7s ease;
