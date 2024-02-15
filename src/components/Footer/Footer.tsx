@@ -13,7 +13,18 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.buyCoffee}> </div>
+      <div className={styles.hidden}>
+        <div className={styles.buyCoffee}>
+          <h3 className={styles.start}>Commencer un projet</h3>
+          <p className={styles.coffee}>
+            Intéressé par une collaboration? On peut discuté autour d&apos;un café, c&apos;est moi
+            qui paye!
+          </p>
+          <a className={styles.contact} href="mailto:benjaminclairottepro@gmail.com">
+            Fessons ça !
+          </a>
+        </div>
+      </div>
       <div className={styles.socialMedia}>
         <a className={styles.btn} href="https://www.linkedin.com/in/benjamin-clairotte/">
           <FontAwesomeIcon className={styles.icon} icon={faLinkedin} size="xl" />

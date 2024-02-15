@@ -1,5 +1,6 @@
 * {
   font-family: 'Roboto', monospace;
+  color: white
 }
 
 .slick-dots li button:before {
@@ -11,6 +12,8 @@
 }
 
 :root {
+  background-color: white;
+
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -19,7 +22,7 @@
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 0, 0, 0;
 
   --primary-glow: conic-gradient(from 180deg at 50% 50%,
       #16abff33 0deg,
@@ -103,15 +106,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
-
-.MS2000 {
-  transform: rotateZ(160deg);
-}
-
-@font-face {
-  font-family: 'Bender';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Bender'), url('/fonts/Bender.woff') format('woff');
 }

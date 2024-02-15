@@ -7,7 +7,63 @@
   align-items: center;
 
   min-height: 300px;
+  margin-top: 200px;
   background-color: $primary-color;
+
+  .hidden {
+    height: 0px;
+
+    .buyCoffee {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5%;
+
+      position: relative;
+      top: -159px;
+      background-color: $third-color;
+      width: 93vw;
+      height: 200px;
+      border-radius: 12px;
+
+      .start {
+        text-align: center;
+        font-size: 1.7rem;
+      }
+      .coffee {
+        width: 50%;
+        text-align: center;
+        font-weight: bold;
+      }
+      .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        color: $secondary-color;
+        border: solid $secondary-color 2px;
+        border-radius: 25px;
+        padding: 10px 20px;
+        margin: 7px;
+        height: fit-content;
+
+        transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease,
+          box-shadow 0.3s ease;
+
+        .icon {
+          margin-right: 7px;
+        }
+        &:hover {
+          background-color: $secondary-color;
+          color: $third-color;
+        }
+        &:focus {
+          outline: none;
+          box-shadow: 0 0 7px rgba($third-color, 0.3);
+        }
+      }
+    }
+  }
 
   .socialMedia {
     display: flex;
@@ -39,6 +95,23 @@
       &:focus {
         outline: none;
         box-shadow: 0 0 7px rgba($secondary-color, 0.3);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .footer {
+    margin-top: 300px;
+    .hidden {
+      .buyCoffee {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 300px;
+        top: -300px;
+        .coffee {
+          width: 95%;
+        }
       }
     }
   }
