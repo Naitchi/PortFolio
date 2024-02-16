@@ -21,7 +21,7 @@ export default function Home() {
         <title>Benjamin Clairotte | Développeur d&apos;Applications Web FullStack</title>
         <meta
           name="description"
-          content="J'aime codé et voilà ce que j'ai codé; Bienvenue sur mon PortFolio"
+          content="Découvrez mes réalisations en développement web et mes compétences en programmation sur mon portfolio. Explorez mes projets pour en savoir plus sur mon expertise dans le domaine de la création de sites web interactifs et fonctionnels."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/favicon.ico" type="image/ico" />
