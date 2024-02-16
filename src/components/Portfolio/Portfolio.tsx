@@ -22,7 +22,7 @@ export default function Portfolio() {
         <SiteCard
           image="AncienCV.png"
           url="https://mon-cv-en-ligne.vercel.app/"
-          desc="Mon ancien CV fait pour montrer mes compétences. Le design laisse un peu à désirer sur certaines parties, mais je suis fier de ce site."
+          desc="Mon ancien CV fait pour montrer mes compétences de coder. Le site illustre également ma progression au niveau design."
         />
         <SiteCard
           image="quest-eft.png"
@@ -32,12 +32,11 @@ export default function Portfolio() {
         <SiteCard
           image="formademia.png"
           url="https://www.formademia.fr"
-          desc="Site de formation, j'ai développé la home-page, la page des mentions-légals, la page &quot;Qui sommes-nous?&quot; mais aussi le Back-office qui lui n'a pas disponible au public."
+          desc="Site de vente de formations, permettant aux utilisateurs de Mes-Allocs de se former et ainsi revenir dans la vie active. Le site héberge aussi un Back-office développé par mes soins."
         />
       </div>
-      <p className={styles.thisOneToo}>Et ce site Portfolio évidemment.</p>
       <a className={styles.github} href="https://github.com/Naitchi?tab=repositories">
-        En voir plus sur mon Github
+        Consulter tous mes projets sur GitHub.
         <FontAwesomeIcon className={styles.icon} icon={faArrowRight} size="xl" />
       </a>
     </div>
