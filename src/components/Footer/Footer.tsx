@@ -6,7 +6,7 @@ import styles from './Footer.module.scss';
 
 // Import Fontawesome
 import { faLinkedin, faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHandPeace } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
@@ -21,7 +21,8 @@ export default function Footer() {
             qui paye!
           </p>
           <a className={styles.contact} href="mailto:benjaminclairottepro@gmail.com">
-            Fessons ça !
+            C&apos;est parti !
+            <FontAwesomeIcon className={styles.icon} icon={faHandPeace} size="xl" />
           </a>
         </div>
       </div>
