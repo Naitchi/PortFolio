@@ -34,6 +34,11 @@ export default function Portfolio() {
           url="https://www.formademia.fr"
           desc="Site de vente de formations, permettant aux utilisateurs de Mes-Allocs de se former et ainsi revenir dans la vie active. Le site héberge aussi un Back-office développé par mes soins."
         />
+        <SiteCard
+          image="SportSee.png"
+          url="https://projet-14-wealth-health-1zqd.vercel.app/12"
+          desc="Projet de ma formation développeur web, j'ai créé une page qui affiche les statistiques sportive d'une personne en les stylisant selon la maquette."
+        />
       </div>
       <a className={styles.github} href="https://github.com/Naitchi?tab=repositories">
         Consulter tous mes projets sur GitHub.
