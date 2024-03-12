@@ -39,6 +39,11 @@ export default function Portfolio() {
           url="https://projet-14-wealth-health-1zqd.vercel.app/12"
           desc="Projet de ma formation développeur web, j'ai créé une page qui affiche les statistiques sportive d'une personne en les stylisant selon la maquette."
         />
+        <SiteCard
+          image="butterflychat.png"
+          url="https://butterfly-chat.vercel.app/"
+          desc="Projet personnel pour apprendre les websockets, j'ai créé un chat qui permet de communiquer avec plusieurs autres utilisateurs en temps réel."
+        />
       </div>
       <a className={styles.github} href="https://github.com/Naitchi?tab=repositories">
         Consulter tous mes projets sur GitHub.
