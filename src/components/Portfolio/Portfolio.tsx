@@ -26,14 +26,10 @@ export default function Portfolio() {
         />
         <SiteCard
           image="quest-eft.png"
-          url="https://quest-eft.com"
+          url="https://quest-eft.vercel.app"
           desc="Site pour les joueurs d'Escape From Tarkov, vous permet de connaître la location et les détails de vos quêtes sur la carte pour mieux vous y retrouvez."
         />
-        <SiteCard
-          image="formademia.png"
-          url="https://www.formademia.fr"
-          desc="Site de vente de formations, permettant aux utilisateurs de Mes-Allocs de se former et ainsi revenir dans la vie active. Le site héberge aussi un Back-office développé par mes soins."
-        />
+        {/* TODO Pleins de fautes sur SportSee */}
         <SiteCard
           image="SportSee.png"
           url="https://projet-14-wealth-health-1zqd.vercel.app/12"
